@@ -3,6 +3,7 @@
 #include "cashierView.h"
 #include "StoreInventory.h"
 #include "order.h"
+#include "ObserverPattern-cpp/ObserverPattern.cpp"
 
 class registerController
 {

@@ -2,6 +2,7 @@
 #define _STORE_INVENTORY_H_
 #include <vector>
 #include "item.h"
+#include "ObserverPattern-cpp/ObserverPattern.cpp"
 
 class StoreInventory
 {
