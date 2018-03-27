@@ -13,6 +13,7 @@ order::order(double tax) {
 void order::addItem(item i) {
   if( !closed )
   {
+    Observable::notifyObservers();
     itemList.push_back(i);
   }
 }
